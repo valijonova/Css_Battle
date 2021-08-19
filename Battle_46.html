@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .back {
+            background: #293462;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .land {
+            position: relative;
+            background: #FFF1C1;
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            overflow: hidden;
+            flex-direction: row-reverse;
+        }
+        .mount {
+            position: absolute;
+            width: 0px;
+            height: 1px;
+            padding-top: -90px;
+            margin-bottom: 40px;
+            margin-left: 40px;
+            border-bottom: 100px solid #FE5F55;
+            border-left: 100px solid transparent;
+            border-right: 101px solid transparent;
+            display: flex;
+        }
+        .mount2 {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-bottom: 100px solid #FE5F55;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            margin-bottom: -29px;
+            margin-left: -70px;
+        }
+        .bottom_party {
+            background: #FE5F55;
+            width: 190px;
+            height: 50px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <div class="land">
+            <div class="mount"></div>
+            <div class="mount2"></div>
+            <div class="bottom_party"></div>
+        </div>
+    </div>
+</body>
+
+</html>
