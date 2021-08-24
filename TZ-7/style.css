@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'IBMlexSans';
+    src: url('../../Cinema_Tash/fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+}
+
+h1 {
+    color: green;
+    font-size: 45px;
+}
+
+.text_1 {
+    color: rgb(0, 183, 255) !important;
+}
+
+.text_2 {
+    color: rgb(212, 0, 255);
+}
+
+.text__a {
+    color: black;
+    border: inherit;
+    font-size: inherit;
+}
+
+.parent {
+    border: 2px solid rgb(255, 0, 191);
+    font-size: 22px;
+}
+
+.text_1 {
+    color: rgb(0, 6, 8);
+}
+.favourite{
+    color: red !important;
+}
+ul#summer-drinks li {
+   font-weight: normal;
+   font-size: 12px;
+   color: black;
+}
+.favourite{
+    color: green;
+}
+p{
+    color: hotpink;
+}
+.text{
+    color: indigo;
+}
+#tex{
+    color: lime;
+}
+.t1 {
+  color: tomato;
+}
+.t2{
+    color: rgb(70, 0, 128);
+}
+#texts{
+    color: springgreen;
+}
