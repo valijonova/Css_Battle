@@ -1,26 +1,83 @@
-h1 {
-  font-size: 50px;
-  color: red;
+h2 {
+  color: darkcyan;
+  font-style: italic;
+  font-size: 25px;
 }
 .description {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 25px;
-  color: violet;
-  text-decoration: underline;
-}
-.description_em {
-  text-decoration: line-through;
-}
-p {
-  color: blue;
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-style: normal;
+  text-decoration: rgb(255, 0, 0) line-through;
 }
-button{
-   border-style: dotted;
+.emphasized-description {
+  color: rgb(9, 0, 139);
+  text-decoration: underline;
+  font-size: medium;
+  font-style: normal;
 }
-#check{
-    font-family: monospace;
-    color:mediumblue;
+#thought {
+  color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 1000px;
+  font-family: monospace;
+}
+
+#mistake {
+  color: crimson;
+  font-size: 25px;
+}
+.description {
+  text-decoration: underline;
+  color: darkcyan;
+}
+#idea {
+  text-decoration: unset;
+  color: springgreen;
+}
+.menu li a {
+  color: tomato;
+  font-size: 15px;
+  text-decoration: none;
+  font-style: italic;
+}
+.menu li {
+  list-style: none;
+}
+.menu2 > p {
+  color: violet;
+  font-size: 20px;
+  font-style: initial;
+}
+h3 + .description {
+  color: blue;
+  font-size: 17px;
+  font-family: serif;
+  font-weight: 75px;
+  text-decoration: none;
+}
+h2,
+.description {
+  color: chartreuse;
+  font-size: 20px;
+  font-family: monospace;
+}
+input[type="text"] {
+  color: red;
+}
+input[type="button"] {
+  background-color: rgb(243, 178, 243);
+}
+input[type="textarea"] {
+  background-color: black;
+  color: white;
+}
+input[type="textarea"] {
+  background-color: pink;
+  color: white;
+}
+.button[type] {
+  background-color: pink;
+  color: red;
 }

@@ -1,0 +1,41 @@
+a:hover {
+  color: salmon;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+a::before {
+  content: "♥️";
+}
+
+.articles p:last-of-type {
+  color: rgb(0, 255, 110);
+  font-size: 50px;
+}
+
+.articles p:last-child {
+  color: sienna;
+  font-size: 20px;
+}
+
+.articles p:not(.description) {
+  color: skyblue;
+  font: large;
+}
+
+.article {
+  color: tan;
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";
+  color: red;
+}
